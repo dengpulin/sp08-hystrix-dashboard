@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: config-server
+  
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/dengpulin/sp08-hystrix-dashboard #仓库路径
+          searchPaths: sp-config  #仓库下的一个字目录，里面存放的是配置文件
+          #username: your-username
+          #password: your-password
+    
+server:
+  port: 6001
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka

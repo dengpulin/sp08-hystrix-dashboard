@@ -21,6 +21,7 @@ public class Item {
 	//4545454
 	//575757
 	//4242422427542111......
+	//242424frrhhfjhwwewte
 	
 }
 
